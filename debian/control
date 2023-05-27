@@ -1,0 +1,21 @@
+Source: packer
+Section: admin
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@gmail.com>
+Homepage: https://github.com/hashicorp/packer/tags
+Vcs-Browser: https://github.com/alvistack/hashicorp-packer
+Vcs-Git: https://github.com/alvistack/hashicorp-packer.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ golang-1.20,
+
+Package: packer
+Architecture: amd64
+Description: A tool for creating machine images for multiple platforms
+ A tool for creating identical machine images for multiple platforms from
+ a single source configuration.
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
