@@ -1,0 +1,5 @@
+packer (100:1.11.2-1) UNRELEASED; urgency=medium
+
+  * https://github.com/hashicorp/packer/releases/tag/v1.11.2
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Thu, 08 Aug 2024 12:49:13 +0900
