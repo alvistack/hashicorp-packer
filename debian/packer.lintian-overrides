@@ -1,0 +1,6 @@
+packer: copyright-without-copyright-notice
+packer: initial-upload-closes-no-bugs
+packer: no-manual-page
+packer: shared-library-lacks-prerequisites
+packer: statically-linked-binary
+packer: zero-byte-file-in-doc-directory
